@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace TestOCR
 {
-    public class Class1
+    interface IOcrLibrary
     {
+
+        void Initalise();
+        string PerformOcr(byte[] fileContents);
+
     }
 }
