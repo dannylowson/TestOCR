@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using Aspose.Words;
 
 namespace TestOCR
@@ -16,7 +15,7 @@ namespace TestOCR
 
             using (var ms = new MemoryStream(fileContents))
             {
-                return "";
+                return GetTextFromWordDocument(new Document(ms));
             }
 
         }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TestOCR
 {
-    interface IOcrLibrary
+    internal interface IOcrLibrary
     {
 
         void Initalise();

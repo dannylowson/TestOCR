@@ -5,7 +5,6 @@ namespace TestOCR
     public class OCR
     {
 
-
         public static string PerformPdfOcr(byte[] fileContentsToOcr)
         {
             return PerformOcr(new AsposePdf(), fileContentsToOcr);
